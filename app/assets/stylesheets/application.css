@@ -12,4 +12,10 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
+ *= require fancybox
+ *= require_tree ../../../vendor/assets/stylesheets/.
  */
+ 
+
+
