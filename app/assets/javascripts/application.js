@@ -16,3 +16,4 @@
 //= require_tree .
 //= require fancybox
 //= require_tree ../../../vendor/assets/javascripts/.
+//= require bootstrap-sprockets
