@@ -522,7 +522,7 @@ display: inherit;
 #timeline .timeline-badge.timeline-filter-movement a span {
   color: #CC4646;
   font-size: 1.3em;
-  top: -1px;
+  top: 2px;
 }
 #timeline .timeline-badge.timeline-future-movement {
   background-color: #ffffff;

@@ -77,7 +77,7 @@
         <div class="container">
             <div class="heading text-center">
                 <!-- Heading -->
-                <h2>I am Pat, a Mechanical Engineer</h2>
+                <h2>I am Pat Rocchio, a Mechanical Engineer</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
             <div class="row">
@@ -224,12 +224,12 @@
             </div>
         <div id="timeline"><div class="row timeline-movement timeline-movement-top">
         <div class="timeline-badge timeline-future-movement">
-            <a href="#">
+            <a href="#experience">
                 <span class="glyphicon glyphicon-plus"></span>
             </a>
         </div>
         <div class="timeline-badge timeline-filter-movement">
-            <a href="#">
+            <a href="#experience">
                 <span class="glyphicon glyphicon-time"></span>
             </a>
         </div>
@@ -250,7 +250,7 @@
                 <div class="col-sm-offset-1 col-sm-11">
                     <div class="timeline-panel debits">
                         <ul class="timeline-panel-ul">
-                            <li><span class="importo">RAB Lighting Inc.</span></li>
+                            <li><a href="http://www.rabweb.com"><span class="importo">RAB Lighting Inc.</span></a></li>
                             <li><span class="causale">Create high-quality, affordable, well-designed and energy-efficientLED lighting and controls that make it easy for distributors to sell, electricians to install and end-users to save energy.</span> </li>
                             <li><p><small class="text-muted"> 6/18/2012 - Present </small></p> </li>
                         </ul>
@@ -277,7 +277,7 @@
                 <div class="col-sm-11">
                     <div class="timeline-panel credits">
                         <ul class="timeline-panel-ul">
-                            <li><span class="importo">Stevens Institute of Technology</span></li>
+                            <li><a href="http://www.stevens.edu"><span class="importo">Stevens Institute of Technology</span></a></li>
                             <li><span class="causale">BE Mechanical Engineering</span> </li>
                             <li><p><small class="text-muted"> 9/12/08 - 5/9/12</small></p> </li>
                         </ul>
@@ -461,7 +461,7 @@
             <div class="row mrgn30">
 
                 <form method="post" action="" id="contactfrm" role="form">
-
+                    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label for="name">Name</label>
@@ -500,6 +500,7 @@
         <div class="container">
             <div class="social text-center">
                 <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/pub/pat-rocchio/42/5bb/596"><i class="fa fa-linkedin"></i></a>
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-dribbble"></i></a>
                 <a href="#"><i class="fa fa-flickr"></i></a>
