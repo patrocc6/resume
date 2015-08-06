@@ -1142,3 +1142,15 @@ footer {
         user-select: none;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
+    
+.profile-pic {
+    width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin: auto;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background-position: 60%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
