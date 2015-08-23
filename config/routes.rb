@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   root 'static_pages#home'
   
   post '/' => 'static_pages#contact'
+  
+  # Mount monologue blog
+  mount Monologue::Engine, at: '/blog'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

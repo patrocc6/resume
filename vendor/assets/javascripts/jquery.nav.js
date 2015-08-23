@@ -166,7 +166,7 @@
                     if (self.config.changeHash) {
                         window.location.hash = newLoc;
                     }
-//				$('#aboutUs').offset({'top':'60'});
+//				$('#aboutMe').offset({'top':'60'});
                     //Add the auto-adjust on scroll back in
                     self.bindInterval();
 
