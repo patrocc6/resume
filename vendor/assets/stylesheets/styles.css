@@ -685,15 +685,15 @@ display: inherit;
     margin-bottom: 30px;
 }
 
-#portfolio {
+#projects {
     background:rgb(24, 24, 24);
 }
 
-    #portfolio img {
+    #projects img {
         width: 100%;
     }
 
-    #portfolio article p {
+    #projects article p {
         margin-bottom: 1.45em;
         /*set next row on the baseline*/;
     }
@@ -1003,12 +1003,17 @@ footer {
         margin: 19px 0px;
         
     }
-	.skilltitle {
- 	text-align: left;
-	}
+	
 	#timeline { 
 	margin:0px 12px;
 	}
+}
+
+@media (max-width: 991px) {
+    .skilltitle {
+ 	text-align: left;
+	}
+    
 }
 
 @media (max-width:760px) {
