@@ -501,15 +501,19 @@ background-image: linear-gradient(to bottom, #CC4646 0%, #CC4646 100%);
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
+  
+}
+#timeline .date {
+    padding-top: 3px;
 }
 #timeline .timeline-badge span.timeline-balloon-date-day {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 #timeline .timeline-badge span.timeline-balloon-date-month {
   font-size: 13px;
-position: relative;
-top: -6px;  
-display: inherit;
+  position: relative;
+  top: -6px;  
+  display: inherit;
 }
 #timeline .timeline-badge.timeline-filter-movement {
   background-color: #ffffff;
