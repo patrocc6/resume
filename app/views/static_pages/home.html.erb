@@ -55,6 +55,11 @@
                         <p>Create value... eliminate waste</p>
                         <div class="da-img"></div>
                     </div>
+                    <div class="da-slide">
+                        <h2>Project Managment</h2>
+                        <p>Leadership through collaboration and innovation</p>
+                        <div class="da-img"></div>
+                    </div>
 				<!--  <nav class="da-arrows">
                         <span class="da-arrows-prev"></span>
                         <span class="da-arrows-next"></span>
@@ -249,8 +254,53 @@
         </div>
     
     </div>
+
+    <div class="row timeline-movement">
     
-     <div class="row timeline-movement">
+    <div class="timeline-badge date">
+            <span class="timeline-balloon-date-day">May</span>
+            <span class="timeline-balloon-date-month">2016</span>
+        </div>
+    
+        <div class="col-sm-6  timeline-item">
+            <div class="row">
+                <div class="col-sm-11">
+                    <div class="timeline-panel credits">
+                        <ul class="timeline-panel-ul">
+                            <li style="text-align:left"><a href="https://www.rabweb.com/lightcloud-di.php"><span class="importo">Lightcloud Launch</span></a></li>
+                            <li style="text-align:left"><span class="causale"> Lightcloud is a wireless lighting control system, developed and supported by RAB. As the lead mechanical engineer on a cross functional team of engineers I designed the enclosures for the controller, ceiling sensor, dimmer, daylight harvester and touch tablet. The successful completion of these projects required required teamwork and expanding my skills in injection molding and industrial design.</span> </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row timeline-movement">
+    
+        <div class="timeline-badge date">
+            <span class="timeline-balloon-date-day">May</span>
+            <span class="timeline-balloon-date-month">2016</span>
+        </div>
+    
+        <div class="col-sm-offset-6 col-sm-6  timeline-item">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-11">
+                    <div class="timeline-panel debits">
+                        <ul class="timeline-panel-ul">
+                            <li><a href="https://www.rabweb.com/360-watt-led-area-lights.php"><span class="importo">ALED360 Launch</span></a></li>
+                            <li><span class="causale"></span>The ALED360 is a high performance 1000W equivalent area light that I designed at RAB Lighting. Heat managment was challenging on this fixture because of its high wattage. This issue was solved by optimizing heat sink design through CFD thermal analysis.
+                            </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row timeline-movement">
     
     <div class="timeline-badge date">
             <span class="timeline-balloon-date-day">Dec</span>
@@ -285,7 +335,7 @@
                 <div class="col-sm-offset-1 col-sm-11">
                     <div class="timeline-panel debits">
                         <ul class="timeline-panel-ul">
-                            <li><a href="https://www.rabweb.com/led-gas-station-canopy-light-masi.php"><span class="importo">MASI Launches</span></a></li>
+                            <li><a href="https://www.rabweb.com/led-gas-station-canopy-light-masi.php"><span class="importo">MASI Launch</span></a></li>
                             <li><span class="causale"></span>RAB Lighting launches the MASI, a high efficiency LED gas station canopy fixture.
                             This fixture has best in class efficiency at up to 143 lumens/watt. The MASI was the second product I designed at RAB.    
                             </li>
@@ -310,7 +360,7 @@
                 <div class="col-sm-11">
                     <div class="timeline-panel credits">
                         <ul class="timeline-panel-ul">
-                            <li style="text-align:left"><a href="https://www.rabweb.com/led-linear-slot-lighting.php"><span class="importo">BOA Launches</span></a></li>
+                            <li style="text-align:left"><a href="https://www.rabweb.com/led-linear-slot-lighting.php"><span class="importo">BOA Launch</span></a></li>
                             <li style="text-align:left"><span class="causale">RAB Lighting Inc launches the BOA, a LED linear slot fixture with upscale design for an affordable price.
                                 I worked as the lead design engineer taking the product from concept to launch. This was my first product.</span> </li>
                         </ul>
@@ -393,14 +443,17 @@
                 <nav id="filter" class="col-md-12 text-center">
                     <ul>
                         <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
-                        <li><a href="#" class="btn-theme btn-small" data-filter=".products">Products</a></li>
+                        <!--<li><a href="#" class="btn-theme btn-small" data-filter=".products">Products</a></li>-->
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".outdoor">Outdoor</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".indoor">Indoor</a></li>
+                        <li><a href="#" class="btn-theme btn-small" data-filter=".lightcloud">Lightcloud</a></li>
                     </ul>
                 </nav>
                 <div class="col-md-12">
                     <div class="row">
                         <div class="portfolio-items isotopeWrapper clearfix" id="3">
 
-                            <article class="col-sm-4 isotopeItem products">
+                            <article class="col-sm-4 isotopeItem products outdoor">
                                 <div class="portfolio-item">
                                     <img src= <%= image_path ("portfolio/masi_gas_station_20x20.png") %> alt="" />
                                     <div class="portfolio-desc align-center">
@@ -413,7 +466,7 @@
                                 </div>
                             </article>
 
-                            <article class="col-sm-4 isotopeItem products">
+                            <article class="col-sm-4 isotopeItem products indoor">
                                 <div class="portfolio-item">
                                     <img src= <%= image_path ("portfolio/linear_fixture.png") %> alt="" />
                                     <div class="portfolio-desc align-center">
@@ -426,97 +479,84 @@
                                 </div>
                             </article>
 
-
-                            <!-- <article class="col-sm-4 isotopeItem photography">
+                            <article class="col-sm-4 isotopeItem products lightcloud">
                                 <div class="portfolio-item">
-                                    <img src= <%= image_path ("portfolio/img3.jpg") %> alt="" />
+                                    <img src= <%= image_path ("portfolio/lightcloud_controller.png") %> alt="" />
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <a href="images/portfolio/img3.jpg" class="fancybox">
-                                                <h5>Project Name</h5>
+                                            <a href = <%= image_path "portfolio/lightcloud_controller.png" %> class="fancybox" title="Lightcloud Controller">
+                                                <h5>Lightcloud Controller</h5>
                                                 <i class="fa fa-arrows-alt fa-2x"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
-                            <article class="col-sm-4 isotopeItem print">
+                            <article class="col-sm-4 isotopeItem products lightcloud">
                                 <div class="portfolio-item">
-                                    <img src= <%= image_path ("portfolio/img4.jpg") %> alt="" />
+                                    <img src= <%= image_path ("portfolio/lightcloud_daylight.png") %> alt="" />
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <a href="images/portfolio/img4.jpg" class="fancybox">
-                                                <h5>Project Name</h5>
+                                            <a href = <%= image_path "portfolio/lightcloud_daylight.png" %> class="fancybox" title="Lightcloud Daylight">
+                                                <h5>Lightcloud Daylight</h5>
                                                 <i class="fa fa-arrows-alt fa-2x"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
-                            <article class="col-sm-4 isotopeItem photography">
+                            <article class="col-sm-4 isotopeItem products lightcloud">
                                 <div class="portfolio-item">
-                                    <img src= <%= image_path ("portfolio/img5.jpg") %> alt="" />
+                                    <img src= <%= image_path ("portfolio/lightcloud_ceiling_sensor.png") %> alt="" />
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <a href="images/portfolio/img5.jpg" class="fancybox">
-                                                <h5>Project Name</h5>
+                                            <a href = <%= image_path "portfolio/lightcloud_ceiling_sensor.png" %> class="fancybox" title="Lightcloud Ceiling Sensor">
+                                                <h5>Lightcloud Ceiling Sensor</h5>
                                                 <i class="fa fa-arrows-alt fa-2x"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
-                            <article class="col-sm-4 isotopeItem webdesign">
+                            <article class="col-sm-4 isotopeItem products lightcloud">
                                 <div class="portfolio-item">
-                                    <img src= <%= image_path ("portfolio/img6.jpg") %> alt="" />
+                                    <img src= <%= image_path ("portfolio/lightcloud_dimmer.png") %> alt="" />
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <a href="images/portfolio/img6.jpg" class="fancybox">
-                                                <h5>Project Name</h5>
+                                            <a href = <%= image_path "portfolio/lightcloud_dimmer.png" %> class="fancybox" title="Lightcloud Dimmer">
+                                                <h5>Lightcloud Dimmer</h5>
                                                 <i class="fa fa-arrows-alt fa-2x"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
-                            <article class="col-sm-4 isotopeItem print">
+                            <article class="col-sm-4 isotopeItem products lightcloud">
                                 <div class="portfolio-item">
-                                    <img src= <%= image_path ("portfolio/img7.jpg") %> alt="" />
+                                    <img src= <%= image_path ("portfolio/lightcloud_touch.png") %> alt="" />
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <a href="images/portfolio/img7.jpg" class="fancybox">
-                                                <h5>Project Name</h5>
+                                            <a href = <%= image_path "portfolio/lightcloud_touch.png" %> class="fancybox" title="Lightcloud Touch">
+                                                <h5>Lightcloud Touch</h5>
                                                 <i class="fa fa-arrows-alt fa-2x"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
-                            <article class="col-sm-4 isotopeItem photography">
+                            <article class="col-sm-4 isotopeItem products outdoor">
                                 <div class="portfolio-item">
-                                    <img src= <%= image_path ("portfolio/img8.jpg") %> alt="" />
+                                    <img src= <%= image_path ("portfolio/aled.png") %> alt="" />
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <a href="images/portfolio/img8.jpg" class="fancybox">
-                                                <h5>Project Name</h5>
+                                            <a href = <%= image_path "portfolio/aled.png" %> class="fancybox" title="ALED360 Area Light">
+                                                <h5>ALED360 Area Light</h5>
                                                 <i class="fa fa-arrows-alt fa-2x"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
-
-                            <article class="col-sm-4 isotopeItem print">
-                                <div class="portfolio-item">
-                                    <img src= <%= image_path ("portfolio/img9.jpg") %> alt="" />
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <a href="images/portfolio/img9.jpg" class="fancybox">
-                                                <h5>Project Name</h5>
-                                                <i class="fa fa-arrows-alt fa-2x"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>-->
+                            
                         </div>
 
                     </div>
