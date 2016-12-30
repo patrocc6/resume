@@ -751,7 +751,7 @@ nav#filter {
         width: 100%;
         left: 0;
         top: 0;
-        color: rgba(220, 220, 220);
+        color: rgba(220, 220, 220, 0.67);
     }
 
 .fancybox-overlay {
